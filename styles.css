@@ -16,7 +16,7 @@ body {
 .width {
     width: 1000px;
     margin: auto;
-    border: 2px solid rgb(30, 255, 0);
+    /* border: 2px solid rgb(30, 255, 0); */
 }
 
 .header-container .width {
@@ -110,14 +110,29 @@ a,
 .card-section {
     display: flex;
     gap: 40px;
-    /* border: 5px solid violet; */
 }
 
 .cards {
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
     width: 200px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 70px;
+}
+
+.quote-container .width {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    width: 600px;
+}
+
+em {
+    font-size: 36px;
 }
