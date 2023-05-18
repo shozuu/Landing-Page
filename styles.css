@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'KleeOne', sans-serif;
+    font-family: 'Klee One', cursive;
 }
 
 .header-container {
@@ -16,7 +16,6 @@ body {
 .width {
     width: 1000px;
     margin: auto;
-    /* border: 2px solid rgb(30, 255, 0); */
 }
 
 .header-container .width {
