@@ -75,9 +75,13 @@ a,
 
 .title-button {
     background-color: #3882F6;
-    color: #e5e7eb;
-    padding: 5px 15px;
-    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 1px solid #1f2937;
+    cursor: pointer;
 }
 
 .image-container img {
@@ -89,7 +93,7 @@ a,
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 4px solid black;
 }
 
 .card-container .width {
@@ -120,9 +124,13 @@ a,
     width: 200px;
 }
 
+.text {
+    font-size: 18px;
+}
+
 .quote-container {
     background-color: #e5e7eb;
-    padding: 70px;
+    padding: 90px;
 }
 
 .quote-container .width {
@@ -133,6 +141,52 @@ a,
     width: 600px;
 }
 
-em {
-    font-size: 36px;
+em {font-size: 36px;}
+strong {font-size: 18px;}
+
+.action-call {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.action {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.sign {
+    font-size: 18px;
+}
+
+.action-container button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 50px;
+    color: #e5e7eb;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
